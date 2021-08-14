@@ -1,0 +1,109 @@
+.container
+{
+    width: 100vw;
+    height: auto;
+
+}
+
+.menu
+{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(254, 209, 1);
+    margin: 0;
+    padding-top: 30px;
+
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    grid-gap: 120px;
+    grid-auto-rows: auto;
+    margin-left: 20%;
+}
+
+.user{
+    margin-left: 150px;
+}
+
+.search{
+    margin-left: 100px;
+}
+
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+}
+
+.up ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 150px;
+
+}
+
+.up{
+    width: 100vw;
+    height: 50px;
+}
+
+.down{
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.down font{
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.menu ul li a img{
+    vertical-align: middle;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    margin: 10px auto;
+}
+
+.logo{
+    padding-right: 40px;
+}
+
+.info p{
+    margin: 0;
+}
+
+.info{
+    display: inline-block;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.info{
+    padding-top: 10px;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+}
+
+.giohang {
+    padding-left: 150px;
+}
